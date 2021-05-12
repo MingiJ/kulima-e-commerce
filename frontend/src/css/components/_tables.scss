@@ -1,0 +1,32 @@
+
+table{
+    min-width: 50rem;
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: center;
+    width: 10rem;
+    font-size: 1.5rem;
+    background-color: $swatch-3;
+    padding: 2rem;
+
+    &:first-child{
+        border-radius: 2rem 0 0 2rem;
+    }
+    &:last-child{
+        border-radius: 0 2rem 2rem 0 ;
+    }
+    
+}
+td{
+   text-align: center;
+   font-size: 1.2rem;
+   padding: 1rem;
+
+}
+tr{
+    &:last-child{
+
+    }
+}

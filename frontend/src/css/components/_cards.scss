@@ -1,0 +1,68 @@
+/*************************************** CARD ****************************************/
+
+.card {
+    position: relative;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+/*************************************** CARD IMAGE & CARD BODY ****************************************/
+
+.card-img,
+.card-body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*************************************** CARD IMAGE ****************************************/
+
+.card-img {
+    object-fit: cover;
+}
+
+/*************************************** CARD BODY ****************************************/
+
+.card-body {
+    background: linear-gradient(to bottom, rgba($swatch-6, .3), rgba($swatch-6, 1));
+}
+
+.card-bottom {
+    position: absolute;
+    width: 100%;
+    padding: 0 2rem;
+    bottom: 2rem;
+}
+
+.price-box {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: $swatch-1;
+
+    .curr {
+        text-transform: uppercase;
+    }
+
+    .price {
+        font-size: 3rem;
+        font-weight: 200;
+    }
+}
+
+.card-title {
+    color: $swatch-3;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+/*************************************** ORDER BOX BODY ****************************************/
+.order-box{
+    border-radius: 2rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: $swatch-2;
+}
+
+

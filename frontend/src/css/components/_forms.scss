@@ -1,0 +1,34 @@
+.input-group {
+    position: relative;
+    width: 40rem;
+    margin: 2rem 0;
+
+    // background: yellow;
+
+    i {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        margin: 0 1rem;
+        font-size: 1.5rem;
+    }
+
+    // input[type='checkbox'] {
+    //     position: absolute;
+    //     left: 0;
+
+    // }
+}
+
+input {
+    width: 100%;
+    padding: .8rem;
+    padding-left: 4rem;
+    font-family: 'Poppins';
+    border: solid 1px rgba($swatch-6, .3);
+    border-radius: 1rem;
+}
+
+.search-box {
+    width: 50%;
+}

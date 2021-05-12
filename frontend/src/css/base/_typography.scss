@@ -1,0 +1,22 @@
+/*************************************** LINK ****************************************/
+
+.link {
+    font-size: 1.3rem;
+    color: #777;
+    text-transform: capitalize;
+    transition: .3s ease;
+
+    &:hover {
+        color: $swatch-1;
+    }
+}
+
+/*************************************** PAGE TITLE ****************************************/
+
+.page-title {
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    border-left: solid 5px $swatch-7;
+    color: $swatch-4;
+    text-transform: capitalize;
+}

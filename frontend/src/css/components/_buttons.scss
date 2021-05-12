@@ -1,0 +1,17 @@
+.btn {
+    display: inline-block;
+    padding: 1rem 2rem;
+    font-size: 1.3rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    border-radius: 1rem;
+    border: none;
+    background-color: $swatch-5;
+    color: #fff;
+    cursor: pointer;
+
+    &-block {
+        display: block;
+    }
+}

@@ -1,0 +1,120 @@
+.navbar {
+    position: fixed;
+    width: 15rem;
+    height: 100vh;
+    background-color: $swatch-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 0;
+    border-radius: 3rem;
+    z-index: 100;
+}
+
+/*************************************** BRAND ****************************************/
+
+.brand {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $swatch-6;
+
+    span {
+        font-weight: 300;
+    }
+}
+
+/*************************************** NAV & NAV LINKS ****************************************/
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav .lni {
+    font-size: 2.5rem;
+}
+
+.nav-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $swatch-4;
+
+    &:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    span {
+        margin-top: .5rem;
+        text-transform: capitalize;
+    }
+}
+
+.cart-count {
+    position: absolute;
+    transform: translate(-1rem, -2.25rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: red;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: #fff;
+
+    span {
+        transform: translateY(-2.5px);
+    }
+}
+
+/*************************************** USER BADGE ****************************************/
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.user-img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+/*************************************** DROPDOWN ****************************************/
+
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    &:hover {
+        .dropdown-content {
+            display: block;
+        }
+    }
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 80%;
+    transform: translateY(-50%);
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $swatch-4;
+    transition: .3s ease;
+
+    .link {
+        display: block;
+        text-transform: capitalize;
+    }
+}
+

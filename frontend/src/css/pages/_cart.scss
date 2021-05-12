@@ -1,0 +1,46 @@
+.cart {
+    
+}
+
+.cart .col {
+    position: relative;
+    height: 100%;
+
+    &:first-child {
+        width: 70%;
+    }
+
+    &:last-child {
+        width: 30%;
+        border-left: solid 1px rgba($swatch-6, .1);
+    }
+}
+
+.cart-card {
+    position: relative;
+    height: 15rem;
+    // background-color: yellow;
+
+    h1 {
+        font-size: 2rem;
+        color: $swatch-4;
+    }
+
+    img {
+        // position: relative;
+        height: 100%;
+        width: 20rem;
+        object-fit: cover;
+    }
+}
+
+.in-stock {
+    .lni {
+        font-size: 2rem;
+        margin-right: 1rem;
+    }
+
+    span {
+        font-size: 1.3rem;
+    }
+}
