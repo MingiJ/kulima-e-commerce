@@ -1,4 +1,4 @@
-# e-commerce applicattion for small scale farmers
+# e-commerce application for small scale farmers
 
 Small Scale Farming has become a revolution world wide as people have seen the profit that
 comes from producing agricultural products. Previously only people with large pieces of land
